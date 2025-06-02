@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Travel Inquiry Form</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 700px; margin: auto; padding: 20px; }
+    label { font-weight: bold; display: block; margin-top: 15px; }
+    input, select, textarea { width: 100%; padding: 8px; margin-top: 5px; }
+    button { margin-top: 20px; padding: 10px 20px; font-size: 16px; }
+  </style>
+</head>
+<body>
+
+  <h1>Travel Inquiry Form</h1>
+
+  <form action="YOUR_WEB_APP_URL" method="POST">
+    <label>Name:</label>
+    <input type="text" name="name" required>
+
+    <label>Email:</label>
+    <input type="email" name="email" required>
+
+    <label>Phone:</label>
+    <input type="tel" name="phone">
+
+    <label>Address:</label>
+    <input type="text" name="address">
+
+    <label>Vacation Budget:</label>
+    <input type="text" name="budget">
+
+    <label>Insurance:</label>
+    <select name="insurance">
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+    </select>
+
+    <label>Departure City:</label>
+    <input type="text" name="departure_city">
+
+    <label>Airline Preference:</label>
+    <input type="text" name="airline_preference">
+
+    <label>Seat Preference:</label>
+    <input type="text" name="seat_preference">
+
+    <label>Cruise Preference:</label>
+    <input type="text" name="cruise_preference">
+
+    <label>Cabin Itinerary:</label>
+    <input type="text" name="cabin_itinerary">
+
+    <label>Cruise Length:</label>
+    <input type="text" name="cruise_length">
+
+    <label>Number of Nights:</label>
+    <input type="text" name="nights">
+
+    <label>Room Arrangement:</label>
+    <input type="text" name="room_arrangement">
+
+    <label>Hotel Preferences:</label>
+    <textarea name="hotel_preferences"></textarea>
+
+    <label>Car Category:</label>
+    <input type="text" name="car_category">
+
+    <label>Car Add Ons:</label>
+    <input type="text" name="car_add_ons">
+
+    <label>Countries of Interest:</label>
+    <input type="text" name="countries_interest">
+
+    <label>Activity Level:</label>
+    <select name="activity_level">
+      <option value="Independent">Independent</option>
+      <option value="Escorted">Escorted</option>
+    </select>
+
+    <label>Notes:</label>
+    <textarea name="notes"></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+
+</body>
+</html>
